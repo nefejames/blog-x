@@ -5,7 +5,7 @@ import { Box, Text, Heading, Stack } from "@chakra-ui/react";
 export default function MainCard({ title, img, imgAlt, meta }) {
   return (
     <Stack direction={["column", "column", "row"]} spacing={3}>
-      <Box width="300px">
+      <Box width="full">
         <Image src={img} alt={imgAlt} objectFit="contain" placeholder="blur" />
       </Box>
       <Box>
