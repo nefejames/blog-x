@@ -8,7 +8,7 @@ import {
 } from "react-icons/si";
 export default function Footer() {
   return (
-    <Center>
+    <Center mt={[16, 32]} my={16}>
       <HStack spacing={12}>
         <SiFacebook color="#333" size="1.3em" />
         <SiTwitter color="#333" size="1.3em" />
