@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Next Chakra UI Template</title>
+        <title>BlogX</title>
       </Head>
 
       <Posts />
