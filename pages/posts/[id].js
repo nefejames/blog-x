@@ -1,13 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 
-import {
-  Box,
-  Heading,
-  Text,
-  Image as ChakraImage,
-  VStack,
-} from "@chakra-ui/react";
+import { Box, Heading, Text } from "@chakra-ui/react";
 
 export default function Post({ post }) {
   return (
@@ -19,12 +13,12 @@ export default function Post({ post }) {
         <Heading mb={2}>{post.title}</Heading>
         <Text color="blackAlpha.600">{post.meta}</Text>
       </Box>
-      <Box bg="red" position="relative" height="300px" my={[4, 8]}>
+      <Box position="relative" height="500px" my={[4, 8]}>
         <Image
           src={post.img}
           alt={post.imgAlt}
           layout="fill"
-          objectFit="contain"
+          objectFit="cover"
         />
       </Box>
 
